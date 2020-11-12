@@ -39,7 +39,7 @@ function App() {
     <div>
       <Form info='personal' submit={submitFunction} keys={personalKeys} values={personalValues} callback={setPersonalValues} change={inputFunction} active={personalButton} activeCallback={setPersonalButton} />
       <Form info='educational' submit={submitFunction} keys={educationalKeys} values={educationalValues} callback={setEducationalValues} change={inputFunction} active={educationalButton} activeCallback={setEducationalButton} />
-      <Form inf='work' submit={submitFunction} keys={workKeys} values={workValues} callback={setWorkValues} change={inputFunction} active={workButton} activeCallback={setWorkButton} />
+      <Form info='work' submit={submitFunction} keys={workKeys} values={workValues} callback={setWorkValues} change={inputFunction} active={workButton} activeCallback={setWorkButton} />
     </div>
   )
 }
