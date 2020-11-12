@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #FFF;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.section {
+  margin: 0 auto;
+  background-color: #121212;
+  width: 100vh;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 30px 0;
+}
+
+.title {
+  border-bottom: 1px #FFF solid;
+  display: inline-block;
+}
+
+.button {
+  padding: 15px 40px;
+  color: #000;
+  border-radius: 10px;
+  transition: all .2s;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+}
+
+.button-purple {
+  background-color: #BB86FC;
+}
+
+.button-teal {
+  background-color: #03DAC5;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  transform: translateY(-3px); /* goes up 3px */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 1); /* (x, y, blur, color) */
+  outline: none;
+}
+
+.button:active {
+  transform: translateY(-1px); /* goes up 1 px */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2); /* (x, y, blur, color) */
+  outline: none;
+}
+
+.after {
+  font-weight: 500;
+  font-size: 20px;
+  color: #777;
+}
+
+.before {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.input:focus {
+  outline-color: #3700B3;
+}
